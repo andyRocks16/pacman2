@@ -1,0 +1,311 @@
+/*------------------------------------LOGIN PAGE------------------------------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0E0E0;
+}
+
+#loginPage {
+    margin-top: 50px;
+    background-color: #b2b2b2;
+    height: 350px;
+    width: 70%;
+    margin-left: 50px;
+}
+
+#traderNameList {
+    border-radius: 8px;
+    margin: 10px 0px;
+}
+
+#loginButton {
+    color: white;
+    background-color: black;
+    border: none;
+    width: 160px;
+    height: 35px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#loginTag {
+    margin-left: 5px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------HEADER COMPONENT----------------------------------------------------------------------*/
+
+.headerComponent {
+    border: 1px solid black;
+    width: 100%;
+    height: 70px;
+    background-color: #b2b2b2;
+}
+/*#traderName{
+    margin-top:50px;
+    margin-right:5px;
+    font-size: 16px;
+}
+#signOut{
+    margin-top:18px;
+    margin-right: 10px;
+}
+#traderDesktop{
+    font-size:16px;
+    padding:10px;
+    margin:22px 0px 0px 0px;
+}
+.tableFunctionality{
+    margin-right:10px;
+    margin-top: 18px;
+    width:90px;
+    height:30px;
+    color: white;
+    background-color: black;
+    border:hidden;
+}
+.navBarComponent{
+    border:1px solid black;
+    width:100%;
+    height:70px;
+    background-color: #b2b2b2;
+}
+#createButton{
+    margin-left:10px;
+}*/
+ul {
+    display: inline-block;
+}
+
+.navbar {
+    background-color: #101010;
+}
+
+    .navbar .nav-pills {
+        font-size: 20px;
+        color: white;
+    }
+
+.panel-heading .navbar-inverse {
+    background-color: #d9edf7;
+    border-color: #d9edf7;
+}
+
+    .panel-heading .navbar-inverse .navbar-toggle {
+        background-color: #d9edf7;
+        border-color: #d9edf7;
+    }
+
+        .panel-heading .navbar-inverse .navbar-toggle .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+            background-color: #d9edf7;
+            border-color: #d9edf7;
+        }
+
+div {
+    display: block;
+}
+
+.tableFunctionality {
+    color: white;
+    background-color: #101010;
+    border: hidden;
+}
+
+.ordersTable {
+    margin-top: 20px;
+}
+
+button:focus {
+    background: black;
+    filter: invert(100%);
+}
+
+@media screen and (max-device-width : 320px) {
+    .tableFunctionality {
+        font-size: 10px;
+    }
+
+    .navbar .nav-pills {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-device-width: 330px) and (max-device-width : 414px) {
+    .navbar .nav-pills {
+        font-size: 15px;
+    }
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------TABLE COMPONENT----------------------------------------------------------------------*/
+.tab {
+    background-color: #b2b2b2;
+}
+
+.panel {
+    margin-top: 70px;
+    background-color: #ffffff;
+}
+
+svg {
+    width: 100%;
+}
+
+.userNav {
+    display: "block";
+}
+
+table {
+    overflow: auto;
+}
+
+
+.header {
+    background-color: #5F9EA0;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(2) {
+    top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+    top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+    top: 6px;
+    transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+    background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+    top: -6px;
+    transform: rotate(-45deg);
+}
+
+.panel-footer {
+    background-color: #d9edf7;
+}
+
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+
+    .filterable .filters input[disabled]::-webkit-input-placeholder {
+        color: #333;
+    }
+
+    .filterable .filters input[disabled]::-moz-placeholder {
+        color: #333;
+    }
+
+    .filterable .filters input[disabled]:-ms-input-placeholder {
+        color: #333;
+    }
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------POPUP COMPONENT----------------------------------------------------------------------*/
+.modal-header {
+    margin: 2px;
+    background-color: #b2b2b2;
+    height: 40px;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.modal-body {
+    color: black;
+}
+
+.ContainerHeader {
+    background-color: #b2b2b2;
+    height: 50px;
+}
+
+li > a {
+    font-size: 12px;
+    color: #0000ff;
+    padding: 18px;
+}
+
+.ContainerHeaderElement {
+    padding: 10px;
+    color: black;
+    font-size: 16px;
+}
+
+.tableHeadHeaders {
+    background-color: grey;
+}
+
+.image{
+    margin-top : 200px;
+}
+.form-group, .dropdown, .li, .form-control{
+    display: inline !important;
+}
+tr {
+    height: 30px;
+    background-color: #ffffff;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+    border-color: #999999;
+}
+
+.table-striped > tbody > tr:nth-child(even) > td,
+.table-striped > tbody > tr:nth-child(even) > th {
+    border-color: #999999;
+}
+
+.panel-heading, .panel-footer{
+    background-color: #C0C0C0;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 13px 15px;
+}
+
+.filter {
+    margin-top: -20px;
+}
+
+.panel-info > .panel-heading {
+    background-color: #b2b2b2;
+    border-color: black;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------CHART COMPONENT-----------------------------------------------------------*/
+
+.test-legend-class {
+    text-align: left !important;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+@media(max-width:480px) {
+    .test-legend-class {
+        display: block !important;
+        width:100px !important;
+        margin-left:25px;
+    }
+}
+.ordersTable{
+    margin-top: 50px;
+}
